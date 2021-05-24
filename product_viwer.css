@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    background: black;
+}
+.mobile_body{
+    width: 100%;
+    position: absolute;
+    right:0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.product_viwer_mian_box{
+    border: 2px solid #f0f0f0;
+    max-width: 992px;
+    margin: auto;
+    background: #fff;
+}
+
+/* product viwer main title css  */
+.product_viwer_title{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    padding: 5px 0px;
+    position: relative;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.product_viwer_title p{
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.product_viwer_title a{
+    background: mediumblue;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 2px 8px;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: fit-content;
+    height: fit-content;
+    float: right;
+}
+.product_viwer_title a:hover{
+    background:blue;
+}
+/* product viwer imagebox css  */
+
+.product_viwer_sub_box{
+    overflow: hidden;
+    border-bottom: 2px solid #f0f0f0;
+}
+.product_image_viwer_ul{
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+.product_image_viwer_ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+.product_image_viwer_div{
+    position: relative;
+    margin: auto;
+    /*width: 350px;
+    height: 350px;*/
+    user-select: none;
+    -webkit-user-drag: none;
+    overflow: hidden;
+}
+
+.product_image_viwer_div img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    overflow: hidden;
+}
+
+
+/* product viwer imagebox title css  */
+
+.product_viwer_detail{
+    padding: 3px 10px;
+    background: #fff;
+}
+.product_viwer_main_title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.product_viwer_detail div{
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.product_viwer_detail div del{
+    margin:0px 5px;
+    color:#878787;
+    font-size: 15px;
+    align-self: center;
+}
+
+.product_viwer_detail div p{
+    color:#2fc836;
+    font-size: 15px;
+    align-self: center;
+}
+
+/* product viwer image indicaters css  */
+
+.product_viwer_subview_box{
+    width: 100%;
+    height:fit-content;
+    background: #fff;
+    list-style: none;
+    display: flex;
+}
+
+.product_viwer_subview_box li{
+    position: relative;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    padding: 2px;
+    user-select: none;
+    -webkit-user-drag: none;
+    overflow: hidden;
+}
+
+.product_viwer_subview_box li img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 2px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    overflow: hidden;
+}
